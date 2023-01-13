@@ -14,11 +14,11 @@
 }
 /* Fonts */
 @font-face {
-    font-family: Another Danger Slanted - Demo;
+    font-family: Kinkee;
     src: url("https://seeklogo.com/images/C/cloud-akatsuki-logo-17E3DF7FAC-seeklogo.com.png");
 }
 * {
-    font-family: Another Danger Slanted - Demo;
+    font-family: Kinkee;
 }
 /* Glows Clan Name */
 .heads .clan-tag {
