@@ -1,6 +1,6 @@
 /* Home */
 :root {
-    --asscentColor: #E5E3C9;
+    --asscentColor: #660033;
 }
 ::-webkit-scrollbar-thumb {
     background-color: var(--asscentColor);
