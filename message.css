@@ -14,11 +14,11 @@
 }
 /* Fonts */
 @font-face {
-    font-family: Stranger back in the Night;
+    font-family: Another Danger Slanted - Demo;
     src: url("https://seeklogo.com/images/C/cloud-akatsuki-logo-17E3DF7FAC-seeklogo.com.png");
 }
 * {
-    font-family: Stranger back in the Night;
+    font-family: Another Danger Slanted - Demo;
 }
 /* Glows Clan Name */
 .heads .clan-tag {
