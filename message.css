@@ -14,11 +14,11 @@
 }
 /* Fonts */
 @font-face {
-    font-family: who asks satan;
+    font-family: Stranger back in the Night;
     src: url("https://seeklogo.com/images/C/cloud-akatsuki-logo-17E3DF7FAC-seeklogo.com.png");
 }
 * {
-    font-family: who asks satan;
+    font-family: Stranger back in the Night;
 }
 /* Glows Clan Name */
 .heads .clan-tag {
