@@ -14,11 +14,11 @@
 }
 /* Fonts */
 @font-face {
-    font-family: gamefont;
+    font-family: who asks satan;
     src: url("https://seeklogo.com/images/C/cloud-akatsuki-logo-17E3DF7FAC-seeklogo.com.png");
 }
 * {
-    font-family: gamefont;
+    font-family: who asks satan;
 }
 /* Glows Clan Name */
 .heads .clan-tag {
