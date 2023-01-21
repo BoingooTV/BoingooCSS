@@ -162,25 +162,9 @@
     background-position: 0px 0px;
     -webkit-animation: animate 10s linear infinite!important;
 }
-/*End Screen Background*/
+
 .end-modal {
     background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
-}
-.end-modal .team-list-players .list .player {
-    background: transparent !important;
-    border: none !important;
-    border-bottom: none !important;
-    box-shadow: none !important;
-}
-.end-modal .team-list-players .card-cont:nth-child(1),
-.end-modal .team-list-players .card-cont:nth-child(2),
-.end-modal .items {
-    background: transparent !important;
-    box-shadow: none !important;
-}
-.end-modal .team-list-players .label {
-    background: transparent;
-    color: var(--asscentColor);
 }
 /* Login/Signup*/
 .auth-form {
