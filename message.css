@@ -26,6 +26,59 @@
     -moz-animation: glow 2s ease-in-out infinite alternate;
     animation: glow 2s ease-in-out infinite alternate;
 }
+/* Animation */
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+    }
+}
+
+@-webkit-keyframes animate{
+    to {transform:translateY(30%);}
+}
+
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+ .clan-tag {
+	animation: rainbow 1.3s linear infinite;
+}
+
 /* Removes Logo  */
 .interface .logo {
     width: auto;
@@ -97,21 +150,21 @@
 .tab:hover,
 .nav:hover {
     color: var(--asscentColor) !important;
+/* Background */
+.pattern-bg,
+.bg-radial {
+    display: none;
 }
-/* Custom Backgorund */
-#app > div.interface.text-2 > div.background {
-    background-image: url("https://gifdb.com/images/high/dark-sad-anime-k23yuohm6b22di5l.gif") !important;
-    background-size: cover !important;
-}
-#app > div.interface.text-2 > div.background > div.pattern-bg,
-#app > div.interface.text-2 > div.background > div.bg-radial {
-    display: none !important
+
+.interface .background{
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
+    height: 300%;
+    background-position: 0px 0px;
+    -webkit-animation: animate 10s linear infinite!important;
 }
 /*End Screen Background*/
 .end-modal {
-    background: url(https://images7.alphacoders.com/109/1098316.jpg) no-repeat !important;
-    background-size: cover;
-    z-index: -1;
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
 }
 .end-modal .team-list-players .list .player {
     background: transparent !important;
